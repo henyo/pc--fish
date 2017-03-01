@@ -1,0 +1,114 @@
+
+
+
+@media only screen and (max-width:800px ) {
+	/*750/640/360*/
+	body{
+		width: 480px;margin: 0 auto;background: #FFFFFF;
+	}
+	html{
+		background: #Eeeeee;
+	}
+	.wrapper{
+		width: auto;
+	}
+	.header .tel{
+		display: none;
+	}
+	.header .img{
+		display: none;
+	}
+	.header .logo{
+		margin-left: 20px;
+	}
+	.naver{
+		height: auto; background: #006E77;
+	}
+	.naver li{
+		float: none;display: inline-block;*display: inline;
+		width: 20%;text-align: center;margin-right: 0;
+		position: relative;
+	}
+	.naver li:first-child{
+		margin-left: 0;
+	}
+	.naver li:after{ 
+		width: 1px;height: 20px;content: "";background: mediumvioletred;
+		position: absolute;right: 0;top: 50%;margin-top: -10px;
+	}
+	.hslider{
+		display: none;
+	}
+	.hrow1{
+		padding: 20px;
+	}
+	.hrow1 .main-hmod{
+		width: auto;float: none;display: block;
+	}
+	.hrow1 .main-hmod .body .view{ 
+		width: auto;float: none;
+	}
+	.hrow1 .main-hmod .body .list{
+		width: auto;float: none;
+	}
+	.hrow1 .side-hmod{
+		width: auto;float: none;display: block;margin-top: 20px;
+	}
+	.hrow1 .side-hmod .body .view{
+		float: none;width: auto;display: none;
+	}
+	.hrow1 .main-hmod .slide img{
+		width: 440px;
+	}
+	.hrow1 .side-hmod .body .list{
+		width: auto;float: none;
+	}
+	.hrow2{
+		margin: 20px;
+	}
+	.hrow2 .main{
+		width: auto;float: none;
+	}
+	.hrow2 .main .hmod .body .txts{
+		background: none;border:#019199 solid 10px;
+		width: auto;height: auto;padding: 20px;
+		
+	}
+	.hrow2 .main .hvideo ul{
+		width: auto;
+	}
+	.hrow2 .main .hvideo li{
+		width: auto; height: auto;float: none;margin: 0;
+	} 
+	.hrow2 .side{
+		float: none;width: auto;
+	}
+	.hrow3 ul{
+		width: auto;
+	}
+	.hrow3 li{
+		float: none;width: auto;margin-right: 0;
+	}
+	.hrow3 li .head1{
+		background: #f65376;
+	}
+	.hrow3 li .body{
+		margin: 0;width: auto;
+	}
+	.hrow4{
+		margin: 20px;
+	}
+	.hrow4 .main{
+		float: none;width: auto;
+	}
+	.hrow4 .side{
+		float: none;width: auto;
+	}
+	.footer .info{
+		height:auto;text-align: center;padding: 0 20px;
+	}
+	.footer .logo{
+		position: static;
+	}
+
+}
